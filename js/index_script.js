@@ -7,8 +7,7 @@ $(document).ready(function () {
 
     //selecting bike in home page
     $(".bike").click(function (e) {
-
-        console.log(e);
+        
         localStorage.setItem(vehicleType, "bike");
         window.location = BASE_URL + "scene.html"
     });
@@ -18,6 +17,15 @@ $(document).ready(function () {
 
         console.log(e);
         localStorage.setItem(vehicleType, "car");
+        window.location = BASE_URL + "scene.html"
+
+    });
+    $(".van").click(function (e) {
+
+        console.log(e);
+        localStorage.setItem(vehicleType, "van");
+        window.location = BASE_URL + "scene.html"
+
     });
 
 });

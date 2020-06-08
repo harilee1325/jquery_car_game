@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+  margin: 0;
+  align-content: center;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+h1 {
+  display: block;
+  font-size: 3em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: lighter;
+}
+
+.bike {
+  transition: 1s;
+  margin: 5rem auto;
+  text-align: center;
+  width: 300px;
+  float: left;
+  align-self: center;
+  margin-right: 20px;
+  height: 300px;
+  border-radius: 25px;
+  background: url("/img/bike.png");
+  background-size: cover;
+  position: relative;
+  box-shadow: 1px 2px 60px 0 rgba(5, 35, 117, 0.4);
+}
+
+.car {
+  transition: 1s;
+  margin: 5rem auto;
+  text-align: center;
+  width: 300px;
+  float: left;
+  align-self: center;
+  margin-right: 20px;
+  height: 300px;
+  border-radius: 25px;
+  object-fit: cover;
+  position: relative;
+  box-shadow: 1px 2px 60px 0 rgba(5, 35, 117, 0.4);
+}
+.van {
+  transition: 1s;
+  margin: 5rem auto;
+  text-align: center;
+  width: 300px;
+  float: left;
+  align-self: center;
+  margin-right: 20px;
+  height: 300px;
+  border-radius: 25px;
+  object-fit: cover;
+  position: relative;
+  box-shadow: 1px 2px 60px 0 rgba(5, 35, 117, 0.4);
+}
+
+.car_image {
+  margin-top: 15%;
+  height: 50%;
+  width: 100%;
+  object-fit: fit-content;
+}
+
+.bike:hover {
+  box-shadow: 1px 2px 60px rgba(253, 3, 3, 0.4);
+}
+.car:hover {
+  box-shadow: 1px 2px 60px rgba(253, 3, 3, 0.4);
+}
+.van:hover {
+  box-shadow: 1px 2px 60px rgba(253, 3, 3, 0.4);
+}
+
+.container {
+  padding: 2px 16px;
+  align-content: space-between;
+}
+.main {
+  height: 80vh;
+  margin: auto;
+  width: 40%;
+ 
+}
